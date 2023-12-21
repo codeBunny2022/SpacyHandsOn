@@ -26,8 +26,8 @@ def test_model(model, text):
 
 
 # TRAIN_DATA=[(text,{"entities":[(start,end,label)]})]
-
-nlp = spacy.load("hp_ner")
+ 
+nlp  = spacy.load("hp_ner")
 with open ("data/hp.txt", "r")as f:
     text = f.read()
 
